@@ -5,7 +5,7 @@ public class PasswordGenerator
     public static void main(String[] args)
     {
         int length = 8; // password length
-        System.out.println(generatepswd(length));
+        System.out.println(gnrtpswd(length));
     }
     static char[] gnrtpswd(int len)
     {
