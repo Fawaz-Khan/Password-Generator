@@ -1,10 +1,11 @@
+//PasswordGenerator By Fawaz
 import java.util.Random;
 public class PasswordGenerator 
 {
     public static void main(String[] args)
     {
         int length = 8; // password length
-        System.out.println(gnrtpswd(length));
+        System.out.println(generatepswd(length));
     }
     static char[] gnrtpswd(int len)
     {
