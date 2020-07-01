@@ -13,7 +13,7 @@ public class PasswordGenerator
         String charscaps = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
         String chars = "abcdefghijklmnopqrstuvwxyz";
         String nums = "0123456789";
-        String sym = "!@#$&?.<>_-()";
+        String sym = "!@#$&?.<>_-()/*+";
 
         String pass = charscaps + chars + nums + sym;
         Random rnd = new Random();
